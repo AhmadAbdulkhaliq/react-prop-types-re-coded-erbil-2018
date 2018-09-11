@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class HiRe-Coded extends React.Component {
+class HiReCoded extends React.Component {
   render() {
     return (
       <h1>{this.props.name}</h1>
@@ -10,6 +10,6 @@ class HiRe-Coded extends React.Component {
   }
 }
 
-Greeting.propTypes = {
+HiReCoded.propTypes = {
   name: PropTypes.string
 };
